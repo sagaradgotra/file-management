@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desktop/manager/views/look.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">Options</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost:4000/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/add">Add</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delete</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <!--
+
+    
+    <hi><b>FILE MANAGEMENT SYSYEM</b> </hi>
+    <form action="/data" method="get">
+        <div>
+            <label for="name">Enter your file number</label>
+            <input type="string" id="name" name="FILE" placeholder="file number">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <input type="description" id="subject" name="SUBJECT" placeholder="subject">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    -->
+
+<form action ="/data" method="get">
+    <section class="intro">
+  <div class="mask d-flex align-items-center h-100" style="background-color: #c4a6e5;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-16 col-md-8 col-lg-6 col-xl-5">
+          <div class="card" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+
+              <div class="my-md-5 pb-5">
+
+                <h1 class="fw-bold mb-0">File Management System</h1>
+
+                <i class="fas fa-user-astronaut fa-3x my-5"></i>
+
+                <div class="form-outline mb-4">
+                  <input type="string" id="name" name="FILE" class="form-control form-control-lg" />
+                  <label class="form-label" for="name">File Number</label>
+                </div>
+
+                <div class="form-outline mb-5">
+                  <input type="description" id="subject" name="SUBJECT" class="form-control form-control-lg" />
+                  <label class="form-label" for="subject">Subject</label>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-rounded gradient-custom text-body px-5" type="submit">Submit</button>
+
+              </div>
+
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</form>
+
+    
+</body>
+</html>

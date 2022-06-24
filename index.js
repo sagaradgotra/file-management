@@ -70,7 +70,7 @@ app.get('/data',async   (req,res)=>{
         await dat.findOne({filenumber:file}).then(data=>{
             const result=data;
             //console.log(result);
-            res.render('information', {result})
+            res.render('information'    , {result})
         })
         // const result= await dat.findOne({filenumber:file});
         // console.log(result);

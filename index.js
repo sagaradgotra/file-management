@@ -16,7 +16,7 @@ const ur= process.env.DB;
 // };
 
 
-// async function mong() {await mongoose.connect('mongodb+srv://sagaradgotra:actual123@cluster0.vwcigoc.mongodb.net/?retryWrites=true&w=majority')
+// async function mong() {await mongoose.connect('process.env.MONGO_URL')
 // .then(()=>console.log('connected'))
 // .catch(e=>console.log(e)),{
 //     useNewUrlParser: true,

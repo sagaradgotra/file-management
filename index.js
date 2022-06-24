@@ -27,7 +27,7 @@ const ur= process.env.DB;
 // }}
 
 try {
-    var db = mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, dbName: 'swag-shop' });
+    var db = mongoose.connect(process.env.MONGO_URL , {useNewUrlParser: true, dbName: 'swag-shop' });
     console.log('success connection');
 }
 catch (error) {

@@ -62,7 +62,7 @@ app.get('/',(req,res)=>{
     res.render('home');
     //res.redirect('/');
 })
-app.get('/data',async (req,res)=>{
+app.get('/data',async   (req,res)=>{
     //console.log(req.query.FILE);
     const file=req.query.FILE;
     try {
